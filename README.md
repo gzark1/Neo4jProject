@@ -13,6 +13,7 @@ The dataset contains 3 files:
 * `mooc_actions_features.tsv` contains information about the features of the user actions.
 * `mooc_actions_labels.tsv` contains information about the labels of the user actions.
 
+
 ### Data Model
 
 The data model is composed of 2 nodes:
@@ -23,7 +24,8 @@ The data model is composed of 1 relationship:
 
 * `PERFORMS_ACTION`, which represents the action performed by a user on a target.
 
-
+### Load data in Neo4j
+To load data into Neo4j we used the main.py file. We used the py2neo library to connect to the database and to load the data. In order to load data we used data structures such as dictionaries and sets.In this way the data loaded faster and we avoided duplicates.
 
 ## Queries
 
