@@ -83,4 +83,5 @@ def load_dataset():
                         label=label)
 
 
-load_dataset()
+if __name__ == '__main__':
+    load_dataset()
